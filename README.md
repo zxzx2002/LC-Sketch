@@ -1,9 +1,9 @@
 # LC-Sketch
 Source code for LC-Sketch (ICASSP 2026)
 ## Paper
-LC-Sketch: A Layered-Carry Sketch for IoT Network Measurement
+LC-Sketch: A Layered-Carry Sketch for IoT Network Measurement (ICASSP 2026)
 ## Cite
-
+https://doi.org/10.1109/ICASSP55912.2026.11462486
 ## Abstract
 Network measurement (NM) plays a vital role in enhancing the security of Internet of Things (IoT) network by enabling fine-grained flow analysis and real-time anomaly detection. With the advancement of programmable network, sketch-based methods have been deployed in the data plane to achieve line-rate NM. However, existing sketches face challenges in resource efficiency and measurement accuracy under high-volume traffic from diverse sources in the IoT network. To address this issue, we propose the LC sketch for resource-efficient and accuracy-reliable IoT NM. Specifically, for resource efficiency, the LC sketch employs a layered carry mechanism to reduce sketch counter sizes. For reliable accuracy, a hot-cold bucket strategy with a locking mechanism protects large flow measurement from hash collisions. Additionally, we introduce an optimal sketch parameter deployment algorithm to balance resource cost and NM accuracy. We implement the LC sketch on an Intel Tofino2 switch. Experimental results indicate that the LC sketch achieves resource-efficient and accuracy-reliable IoT NM.
 ## Source Code Usage
